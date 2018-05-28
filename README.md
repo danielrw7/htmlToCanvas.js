@@ -1,3 +1,10 @@
+# htmlToCanvas.js
+
+Simple function to create a canvas element from HTML
+
+## Example
+
+```javascript
 htmlToCanvas(`
     <div xmlns="http://www.w3.org/1999/xhtml">
         <em>I</em>
@@ -18,3 +25,6 @@ htmlToCanvas(`
     $img.src = canvas.toDataURL('image/png')
     document.body.appendChild($img)
 })
+```
+
+![example.png](example.png "example.png")
